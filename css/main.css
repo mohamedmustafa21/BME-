@@ -1,0 +1,751 @@
+/* Muhamed Mustafa */
+
+
+
+
+
+body {
+  background: black;
+  
+  /* padding: 2rem 0; */
+}
+/* header */
+.v-center{
+	display: -webkit-box; 
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;	
+  justify-content: end;
+}
+
+header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all .3s ease-in-out;
+  padding-top: 50px;
+  z-index: 999;
+}
+
+header .logo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+header .logo {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* End */
+
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+header{
+  background: transparent;
+  z-index: 999 !important;
+}
+.page .container {
+  /* padding: 2rem; */
+  background: #ffffff;
+}
+.containerr {
+  /* margin-top: -82px ; */
+  
+}
+
+header.main ul {
+  display: flex;
+  justify-content: center;
+}
+header.main li {
+  list-style-type: none;
+}
+
+header.main li a {
+  padding: 0 1.5rem;
+  display: block;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 92vh; /* ارتفاع الشاشة بالكامل */
+  overflow: hidden;
+ 
+}
+
+
+.video-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://localhost:10102/wp-content/uploads/2024/03/home-hero-shadow.png);
+  background-size: cover;
+  pointer-events: none; /* هذا يضمن أن الظل لن يتداخل مع التفاعل مع الفيديو أو الرموز. */
+  z-index: 1; /* تأكد من أن الظل يكون فوق الفيديو. */
+  opacity: 0.7; /* يمكنك تعديل قيمة الشفافية حسب الحاجة. */
+  /* يمكنك أيضًا ضبط أي خصائص إضافية هنا مثل الحجم والانتقال والظلال وما إلى ذلك. */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  z-index: 150;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  max-width: 1024px ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+  
+}
+
+.scrool-btn{
+
+  position: absolute;
+  z-index: 150;
+  top:88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  max-width: 1024px ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+writing-mode: vertical-rl; /* توجيه النص بشكل عمودي من اليمين إلى اليسار */
+    text-align: center; /* محاذاة النص في الوسط */
+    white-space: nowrap; /* منع النص من الانخطاف */
+    text-transform: uppercase;
+   font-size: 11px;
+   letter-spacing: 1px;
+
+}
+.overlay-text .title{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ 
+}
+.overlay-text .play-icon{
+  width: 40px;
+  height: auto;
+  transition: all .3s ease-in-out;
+}
+.overlay-text .watch-btn{
+  max-width: 100px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 11px;
+}
+.overlay-text a span:after {
+  content: "";
+  width: 130%;
+  height: 1.5px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2px;
+  right: -17px;
+  transition: width .3s ease-in-out; 
+  overflow: hidden; 
+}
+
+.overlay-text a span:hover:after { 
+  width: 60%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sec 2  */
+
+
+.sec-2{
+
+   
+    height: 580px;
+    background-image: url('http://localhost:10102/wp-content/uploads/2024/03/showreel-shadow-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+.sec-2 .sec-2-title {
+  max-width: 500px;
+  font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    margin: 0;
+    text-align: left;
+  font-size: 36px;
+  display: flex;
+    justify-content: center;
+}
+.more-sec2{
+  max-width: 700px;
+  font-size: 12px;
+  text-align: end;
+}
+/* Sc 3 */
+
+/* Case Study */
+
+
+/* #case-study{
+  height: 100%;
+  max-height: 500px;
+  position: relative;
+  background-image: url('http://localhost:10102/wp-content/uploads/2024/03/showreel-shadow-1.png');
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  padding: 100px 0; 
+  
+} */
+
+/* OverWrite Bootstrab */
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  top: 15%;
+  bottom: 10px;
+  left: 70%;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+  gap: 6px;
+}
+
+.carousel-indicators li {
+  color: white;
+  position: relative;
+  text-align: end;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 27px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: transparent;
+ color: #767676;
+ cursor: pointer;
+ 
+}
+
+.carousel-indicators .active {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  display: flex ;
+  justify-content: space-between;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; 
+  max-width: 700px; 
+  height: 100%;
+  max-height: 500px; 
+ 
+  padding: 20px; 
+  border-radius: 10px; 
+  color: #ffffff; 
+  z-index: 99;
+}
+.carousel-caption h3{
+  font-size: 36px !important;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin: 0;
+  color: white;
+}
+
+.carousel-caption h3 {
+  font-size: 24px; /* حجم العنوان */
+  margin-bottom: 10px; /* التباعد بين العنوان وباقي المحتوى */
+}
+
+.carousel-caption p {
+  font-size: 16px; /* حجم النص */
+  margin-bottom: 15px; /* التباعد بين النص وباقي المحتوى */
+}
+
+.carousel-caption a.btn {
+  font-size: 18px; /* حجم زر العملية */
+}
+
+
+
+
+#case-study {
+  position: relative;
+}
+
+ .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* يُمكن تعديل هذه القيمة حسب حاجتك */
+  z-index: 1; /* ضع قيمة أكبر من طبقة الفيديو */
+}
+.carousel-inner{
+  height: 100%;
+  max-height: 500px;
+}
+.carousel-caption a:hover i{
+  transition: transform 0.5s ease; 
+}
+
+
+.carousel-caption a:hover i {
+  transform: translateX(5px); 
+  
+}
+/* .carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
+footer .logo img {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+}
+.copyrights p {
+  font-size: 11px;
+}
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  align-items: center;
+}
+
+input#newsletter_mail {
+  padding: 8px 90px 8px 8px;
+  width: 100%;
+  border: 1px solid #fff;
+  font-size: 12px;
+  background: transparent;
+  color: white;
+}
+.tnp-field input[type="submit"] {
+  position: absolute !important;
+  top: 8px !important;
+  right: 15px;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  color: white !important;
+}
+.tnp-field.tnp-field-email {
+  display: flex;
+}
+
+
+
+footer .subscribe .suscribeForm .input {
+  padding: 8px 90px 8px 8px;
+  width: 100%;
+  border: 1px solid #fff;
+  font-size: 12px;
+  background: transparent;
+}
+footer .subscribe .suscribeForm {
+  width: 100%;
+  position: relative;
+}
+footer .subscribe .suscribeForm button {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  font-size: 12px;
+  color: white;
+  background: transparent;
+  border: none;
+}
+footer .subscribe p {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 0;
+  white-space: nowrap;
+  margin-right: 30px;
+}
+footer .followUs .icons {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+ 
+  display: flex;
+}
+.social-icon a:hover {
+  color: #808080; 
+  text-decoration: none;
+}
+
+.social-icon a {
+  transition: color 0.5s ease;
+}
+
+.social-icon a:hover {
+  color: #808080; 
+  text-decoration: none;
+}
+.fa-chevron-right{
+  font-size: 10px;
+}
+
+.customValid 
+button i , .more-sec2 a i{
+  transition: transform 0.5s ease; 
+}
+
+
+.customValid button:hover i , .more-sec2 a:hover i {
+  transform: translateX(5px); 
+  
+}
+
+.followUs {
+  display: flex;
+}
+.more-sec2 a {
+  border-bottom: 1px solid white;
+  
+}
+.copyrights {
+  text-align: left;
+}
+
+/* SEC 3 */
+
+.sec-3{
+
+   
+  height: 580px;
+  background-image: url('http://localhost:10102/wp-content/uploads/2024/03/showreel-shadow-1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+.sec-3 .content h1{
+  text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.more-sec3 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  /* max-width: 700px; */
+  font-size: 12px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.more-sec3 a {
+  border-bottom: 1px solid white;
+  
+}
+.customValid 
+button i , .more-sec3 a i,.scrool-btn a i{
+  transition: transform 0.5s ease; 
+}
+
+
+.customValid button:hover i , .more-sec3 a:hover i {
+  transform: translateX(5px); 
+  
+}
+.scrool-btn a:hover i{
+  transform: translatey(5px); 
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+/* Mobile V */
+
+@media only screen and (max-width: 800px) {
+ header .container-fluid.v-center {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+    
+    
+    
+  .overlay-text .title {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.sec-2 {
+  height: 316px;
+  background-image: url(http://localhost:10102/wp-content/uploads/2024/03/showreel-shadow-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.more-sec2{
+  max-width: 700px;
+  font-size: 12px;
+  text-align: center;
+}
+.sec-2 .sec-2-title {
+  max-width: 500px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: relative;
+  margin: 0;
+  text-align: left;
+  font-size: 29px;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.carousel-caption {
+  position: absolute;
+  top: 85%;
+  display: flex;
+  justify-content: unset;
+  flex-direction: column;
+  align-items: center !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  z-index: 99;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  top: -16%;
+  bottom: 10px;
+  left: 51%;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+  gap: 20px;
+}
+.carousel-indicators li {
+  color: white;
+  position: relative;
+  text-align: end;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 27px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: transparent;
+ color: #767676;
+ cursor: pointer;
+ margin-right:15px !important;
+ 
+}
+.sec-3 {
+  height: 300px;
+  background-image: url(http://localhost:10102/wp-content/uploads/2024/03/showreel-shadow-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sec-3 .content h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin: 0;
+  font-size: 27px;
+  text-align: center;
+}
+.logo-container{
+  justify-content: center;
+}
+.subscribe{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+input#newsletter_mail{
+  margin-top: 0px;
+}
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.followUs {
+  display: flex;
+  flex-direction: column;
+}
+footer .followUs .icons {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.social-icon {
+  display: flow;
+}
+.social-icon a{
+  margin: 5px;
+}
+footer .subscribe p {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 0;
+    white-space: nowrap;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.copyrights {
+  text-align: center;
+}
+
+}
